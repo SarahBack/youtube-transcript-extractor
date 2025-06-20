@@ -16,7 +16,7 @@ Transform YouTube content into structured, AI-ready transcripts with a single cl
 ## 🚀 Quick Start
 
 ```python
-from src.youtube_transcript_extractor import YouTubeTranscriptExtractor
+from src.transcript_extractor import YouTubeTranscriptExtractor
 
 extractor = YouTubeTranscriptExtractor()
 transcripts = extractor.extract_transcripts([
